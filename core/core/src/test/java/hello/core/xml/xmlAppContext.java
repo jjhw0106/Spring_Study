@@ -10,7 +10,6 @@ import static org.assertj.core.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;
 
 public class XmlAppContext {
-public class xmlAppContext {
 
     @Test
     void xmlAppContext(){
@@ -18,7 +17,4 @@ public class xmlAppContext {
         MemberService memberService = ac.getBean("memberService", MemberService.class);
         assertThat(memberService).isInstanceOf(MemberService.class);
     }
-
 }
-
-
